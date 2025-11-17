@@ -59,7 +59,7 @@ This README is intentionally **ultra detailed** so absolutely anyone can bring t
 1. Node.js 18+ (use nvm/Volta if possible)
 2. pnpm (recommended) or npm
 3. Supabase account/project (free tier works)
-4. Mistral API key (https://auth.mistral.ai)
+4. Mistral API key (https://console.mistral.ai/)
 
 ---
 
@@ -67,7 +67,7 @@ This README is intentionally **ultra detailed** so absolutely anyone can bring t
 
 1. **Clone**
    ```bash
-   git clone https://github.com/your-user/le-mistral-chat.git
+   git clone https://github.com/bubcsi13/le-mistral.git
    cd le-mistral-chat
    ```
 
@@ -114,9 +114,12 @@ pnpm run dev
 
 # Option 2 – Vercel dev (if using vercel.json / serverless)
 npx vercel dev --listen 127.0.0.1
+
+# You have to run "pnpm run dev" in one terminal to launch the frontend this is Option 1, and you have to open another terminal where you launch the backend with "npx vercel dev --listen 127.0.0.1" then you open your localhost and here you go!
+
 ```
 
-Open the printed URL (usually http://localhost:5173).
+Open the printed URL (usually http://localhost:5173 or :8080).
 
 ---
 
@@ -197,7 +200,7 @@ Ideas welcome: localization, theme packs, new metrics, better eval scoring, etc.
 
 ## 📄 License
 
-MIT (add LICENSE if missing). Use for any purpose—just keep secrets private and give credit where possible.
+MIT. Use for any purpose—just keep secrets private and give credit where possible. Available for everyone, you can do with it whatever you want!
 
 ---
 
