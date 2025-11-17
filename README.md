@@ -6,6 +6,8 @@
 
 # 🐱 Le Mistral Chat – Complete Setup Guide
 
+# 🐱 Le Mistral Chat – SEE THE LIVE DEMO AT https://mistral.gaborj.com/ !!!
+
 Pixel-perfect, multi-modal Mistral client with eval tools, dashboards, custom prompts, and Supabase-powered persistence.  
 This README is intentionally **ultra detailed** so absolutely anyone can bring the project to life locally.
 
